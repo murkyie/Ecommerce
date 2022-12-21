@@ -3,6 +3,7 @@ const customerRoutes = require('./Routes/customer')
 const categoryRoutes = require('./Routes/category')
 const productRoutes = require('./Routes/product')
 const authRoutes = require('./Routes/auth')
+
 require("./config/dbconnection")
 
 const app = express()

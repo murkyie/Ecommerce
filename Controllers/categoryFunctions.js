@@ -1,7 +1,5 @@
 const categoryModel = require('../Models/categoryModel')
 
-
-
 const getCategories = (request,response) =>{
     categoryModel.find().then((result)=>{
         return response.status(200).send(result)

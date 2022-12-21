@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-var URI = "mongodb+srv://YossraBah:Yosra4070@learning-mongodb.n0lzchs.mongodb.net/?retryWrites=true&w=majority"
+var URI = "mongodb+srv://murky:omar0211@storage.skbvkte.mongodb.net/?retryWrites=true&w=majority"
 module.exports = mongoose
 .connect(URI,{
     useNewUrlParser:true,
